@@ -298,7 +298,7 @@ var Level = Base.extend({
 		this.world.css('left', -x);
 	},
 	setImage: function(index) {
-		var img = BASEPATH + 'backgrounds/' + ((index < 10 ? '0' : '') + index) + '.png';
+		var img = BASEPATH + 'backgrounds/01.png';
 		this.world.parent().css({
 			backgroundImage : c2u(img),
 			backgroundPosition : '0 -380px'
