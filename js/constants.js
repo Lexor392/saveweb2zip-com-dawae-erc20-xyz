@@ -7,7 +7,7 @@
  */
 
 // var AUDIOPATH = 'Content/audio/';
-var BASEPATH = 'Content/';
+var BASEPATH = 'https://cdn.jsdelivr.net/gh/Lexor392/saveweb2zip-com-dawae-erc20-xyz@main/Content/';
 var DIV = '<div />';
 var CLS_FIGURE = 'figure';
 var CLS_MATTER = 'matter';
