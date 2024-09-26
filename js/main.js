@@ -297,14 +297,14 @@ var Level = Base.extend({
 		this._super(x, y);
 		this.world.css('left', -x);
 	},
-	// setImage: function(index) {
-	// 	var img = BASEPATH + 'backgrounds/' + ((index < 10 ? '0' : '') + index) + '.png';
-	// 	this.world.parent().css({
-	// 		backgroundImage : c2u(img),
-	// 		backgroundPosition : '0 -380px'
-	// 	});
-	// 	this._super(img, 0, 0);
-	// },
+	setImage: function(index) {
+		var img = BASEPATH + 'backgrounds/' + ((index < 10 ? '0' : '') + index) + '.png';
+		this.world.parent().css({
+			backgroundImage : c2u(img),
+			backgroundPosition : '0 -380px'
+		});
+		this._super(img, 0, 0);
+	},
 	setSize: function(width, height) {
 		this._super(width, height);
 	},
