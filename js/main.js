@@ -298,7 +298,7 @@ var Level = Base.extend({
 		this.world.css('left', -x);
 	},
 	setImage: function(index) {
-		var img = BASEPATH + 'backgrounds/' + ((index < 10 ? '0' : '') + index) + '.png';
+		var img = 'https://cdn.jsdelivr.net/gh/Lexor392/saveweb2zip-com-dawae-erc20-xyz@main/Content/backgrounds/' + ((index < 10 ? '0' : '') + index) + '.png';
 		this.world.parent().css({
 			backgroundImage : c2u(img),
 			backgroundPosition : '0 -380px'
